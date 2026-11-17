@@ -10,7 +10,7 @@ window.MOURA_CONFIG = {
   subtitulo: "Cafeteria & Lanchonete",
   cidade: "Centro de Petrolina, PE",
   horario: "08h às 18h — confirme dias e feriados",
-  whatsapp: "",
+  whatsapp: "5587991521925",
   entregaAtiva: false,
   aviso: "Pedido sujeito à confirmação de produtos, preços e horário pelo atendimento.",
   produtos: [
