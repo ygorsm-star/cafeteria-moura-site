@@ -6,11 +6,11 @@ Site institucional: \`index.html\`
 Cardápio focado em solicitações: \`cardapio.html\`
 Configuração de produtos: \`moura-config.js\`
 
-Esta versão **não é um checkout com pagamento e não confirma vendas**. Ela permite seleção de produtos e solicitação via WhatsApp quando o número oficial for cadastrado. Sem número, prepara um texto que o cliente copia.
+Esta versão **não é um checkout com pagamento e não confirma vendas**. Ela permite seleção de produtos e solicitação via WhatsApp quando o número oficial for cadastrado. Com o número informado, prepara um link de WhatsApp com a mensagem pré-preenchida; o cliente confirma o envio no aplicativo.
 
 ## O que falta preencher ANTES de publicar como canal comercial
 
-1. Confirmar o WhatsApp Business EXCLUSIVO da Cafeteria Moura; no arquivo \`moura-config.js\`, preencher \`whatsapp\` com DDI 55 + DDD + número (somente dígitos).
+1. WhatsApp comercial informado: **(87) 99152-1925**, configurado como \`5587991521925\` no site. Validar que a linha atende pelo WhatsApp Business e recebe mensagens antes de divulgar o QR Code.
 2. Confirmar nome, descrição, sabores, preço e disponibilidade de cada produto. Deixe \`preco:null\` enquanto não houver valor confirmado. Preço em reais numéricos, por exemplo \`preco:12.5\`.
 3. Substituir as imagens temporárias por fotografias reais, hospedar em HTTPS e inserir o link em \`imagem\`. Os ícones não são fotos.
 4. Validar o horário, endereço exato e dias de abertura; configurar Google Business Profile.
